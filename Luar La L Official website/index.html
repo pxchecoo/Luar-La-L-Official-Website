@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luar La L | Official Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="intro">
+    <img src="logo.png" class="intro-logo" alt="Hades 66">
+    <h1>Luar La L</h1>
+    <span>OFFICIAL WEBSITE</span>
+    <p>ENTER</p>
+  </div>
+
+  <video preload="auto" playsinline id="bg-video">
+    <source src="video.mp4" type="video/mp4">
+  </video>
+
+  <div class="overlay"></div>
+
+  <main class="contenido hidden">
+   <img src="logo.png" class="logo" alt="Hades 66">
+
+    <h1>Luar La L</h1>
+    <p>Escucha su música y síguelo en sus redes oficiales.</p>
+
+    <div class="sociales">
+      <a href="https://www.instagram.com/luar_lal/" target="_blank">Instagram</a>
+      <a href="https://www.tiktok.com/@luar_l3tra" target="_blank">TikTok</a>
+      <a href="https://open.spotify.com/artist/4axKuDPr6WKcDCyh8vueTY" target="_blank">Spotify</a>
+      <a href="https://music.apple.com/pe/artist/luar-la-l/1447304177" target="_blank">Apple Music</a>
+    </div>
+  </main>
+
+  <div id="musicPanel">
+    <div class="songInfo">
+      <div class="equalizer">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div>
+        <strong>Hades 66</strong>
+        <p>Now Playing</p>
+      </div>
+    </div>
+
+    <button id="musicBtn">🔇 Music</button>
+
+    <div class="volumeBox">
+      <span>🔉</span>
+      <input type="range" id="volumeSlider" min="0" max="100" value="100">
+      <span>🔊</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
